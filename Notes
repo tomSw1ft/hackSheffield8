@@ -1,8 +1,12 @@
 Mode 1 if solar panel output > loads
-Mode 2 if price low
-Mode 3 if price high
+Mode 2 (charging battery) if price low, preference for renewable
+Mode 3 (discharging battery) if price high and less renewable
 
 settlement period
 - starts from 1am one day to 1am next day
 - 30 minute periods
 - 12pm utc = 1am NZ = settlement period 1
+
+cheapest settlement period
+average power (used by load) per settlement period
+average grid renewable percentage per settlement period
