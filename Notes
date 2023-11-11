@@ -10,3 +10,12 @@ settlement period
 cheapest settlement period
 average power (used by load) per settlement period
 average grid renewable percentage per settlement period
+
+intercepts - 14,23,33,45
+
+for settlement date:
+if <= 14 = mode 2
+   > 14 && <= 23 = mode 3
+   > 23 && <= 33 = mode 2
+   > 33 && <= 45 = mode 3
+   > 45 = mode 2
